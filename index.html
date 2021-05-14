@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+		<script src="jquery/jquery-3.6.0.js">
+		
+		</script>
+		<script>
+			$(document).ready(function(){
+				$("#menu__hamburguesa").click(function(){
+					$("#menu__mobile").slideToggle();
+				});
+			})
+		</script>
+</head>
+<body>
+	<div class="container">
+			<header>
+				<h1>CSGOr</h1>
+				<span class="menu__hamburguesa" id="menu__hamburguesa">
+					☰
+				</span>
+
+					<ul class="menu__desktop">
+						<li>
+							<a class="this-one"href="#">HOME</a>
+							<a href="#">INFO</a>
+							<a href="#">CONTACT</a>
+						</li>
+					</ul>
+			</header>
+
+							<ul class="menu__mobile" id="menu__mobile">
+						<li>
+							<a href="#">HOME</a>
+							<a href="#">INFO</a>
+							<a href="#" class="this">CONTACT</a>
+						</li>
+
+				</ul>
+	</div>
+	<div class="caja__presentacion">
+			<h2>Lorem ipsum dolor sit amet.</h2>
+		<p>Consectetur adipisicing elit. Expedita vero quibusdam provident dicta aut doloremque dolores at atque labore ratione.</p>
+		<div class="caja__logos">
+		<div class="caja__logos__logo">
+			<img src="img/img.png" alt="">
+			<h4>Mollitia fugiat voluptatum commodi modi sapiente.</h4>
+		</div>
+		<div class="caja__logos__logo">
+			<img src="img/imgg.png" alt="">
+			<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+		</div>
+		<div id="unica" class="caja__logos__logo">
+			<img src="img/imggg.png" alt="">
+			<h4>Nisi odio vero id deleniti at pariatur soluta vitae dicta.</h4>
+		</div>
+	</div>
+
+	</div>
+
+		<footer>
+			<h3>© Copr. 2021 Vincent Varona</h3>
+		</footer>
+</body>
+</html>
